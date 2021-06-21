@@ -1,0 +1,123 @@
+body {
+    background-color: #181818;
+}
+
+.header {
+    display: flex;
+    font-family: 'Graphik LCG';
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+}
+
+.header-text {
+    font-size: 80px;
+    color: white;
+}
+
+.sub-header-text {
+    color: white;
+    font-size: 36px;
+}
+
+.herfs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 400px; */
+}
+
+.collum1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 800px;
+    align-items: center;
+}
+
+.herf {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+    height: 40px;
+    color: #5c5c5c;
+    margin-bottom: 10px;
+}
+
+.herf :hover {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0) 0%, #5c5c5c 66%);
+    color: black;
+}
+
+.Header-label {
+    color: white;
+    font-family: 'Graphik LCG';
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.label {
+    color: white;
+    font-family: 'Graphik LCG';
+    font-size: 26px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cherta {
+    height: 8px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #5c5c5c;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.contact1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+#none {
+    display: none;
+}
+
+@media screen and (max-width: 1001px) {
+    .contacts {
+        flex-direction: column;
+        font-size: 4vw;
+    }
+    .collum1 {
+        width: 100%;
+    }
+    #none {
+        display: block;
+    }
+    .header-text {
+        font-size: 10vw;
+    }
+    .header {
+        height: 80px;
+    }
+}

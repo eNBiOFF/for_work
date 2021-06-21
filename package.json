@@ -1,0 +1,22 @@
+{
+    "name": "y",
+    "version": "1.0.0",
+    "description": "",
+    "workspaces": [
+        "./"
+    ],
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "jest": "^26.6.3"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "build": "cd example_2/ && npm run build && cd ..",
+        "vercel-install": "npm install --only=production && cd example_2/ && npm i"
+    },
+    "author": "Nikita Bakhramov",
+    "license": "ISC"
+}
