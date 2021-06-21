@@ -19,9 +19,9 @@ const App: React.FC = () => {
       </header>
       <Switch>
       
-        <Route exact path='/labol/build/' component={Homepage} />
-        <Route path='/labol/build/search' component={Content}/>
-        <Route path='/labol/build/error' component={PageNotFound}/>
+        <Route exact path='/example_2/build/' component={Homepage} />
+        <Route path='/example_2/build/search' component={Content}/>
+        <Route path='/example_2/build/error' component={PageNotFound}/>
       
       </Switch>
     </>

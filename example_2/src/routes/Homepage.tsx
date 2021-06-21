@@ -14,14 +14,14 @@ function HomePage() {
         if( ev.key === 'Enter') {
             let str = document.getElementById('inp') as HTMLInputElement;
             dispatch(InputActionEnter(str.value));
-            his.push('/labol/build/search')
+            his.push('/example_2/build/search')
         }
     }
 
     const dat2 = () => {
         let str = document.getElementById('inp') as HTMLInputElement;
         dispatch(InputActionEnter(str.value));
-        his.push('/labol/build/search')
+        his.push('/example_2/build/search')
     }
 
     return(
